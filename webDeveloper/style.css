@@ -1,0 +1,475 @@
+body{
+	background-size: 100%;
+	font-family: Open-sans;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+ul{
+	
+	list-style: none;
+	
+}
+li{
+	margin-top: 45px;
+	float: left;
+	margin-left: 45px;
+	display: inline;
+}
+.header{
+
+	min-height: 120px;
+	background: white;
+
+
+}
+.logo{
+	margin-right: 200px;
+	margin-top: -15px;
+	font-size: 25px;
+    float: left;
+    margin-left: 110px;
+
+}
+.menubar{
+font-size: 20px;
+}
+.menu{
+
+}
+
+div.main{
+	background:url(assets/header.png) no-repeat;
+	min-height: 775px;
+}
+.main .title{
+	color: white;
+	text-align: center;
+	margin-top: 184px;
+	vertical-align: middle;
+
+}
+.title h1{
+
+	font-size: 62px;
+}
+.button{
+	margin: 85px;
+}
+.button a{
+	color: white;
+	border: white 3px solid;
+	padding: 20px 55px 20px 35px;
+	margin: 0 20px 0 5px;
+
+}
+a.now{ 
+	min-width: 220px;
+	background-color:#00897b; 
+	border-color:#00897b;
+}
+div.aboutUs{
+	background: white;
+	min-height: 500px;
+	text-align: center;
+}
+.description{
+	width: 550px;
+	text-align: center;
+	margin-left: 400px;
+	margin-top:125px;
+}
+.description p{
+	margin-top: 35px;
+}
+.icons{
+	display: inline;
+}
+.icons p{
+	width: 255px;
+}
+.internet{
+	float: left;
+	margin-left: 150px;
+	margin-top: 125px;
+}
+.transfer{
+	float: left;
+	margin-left: 150px;
+	margin-top: 125px;
+}
+.head{
+	float: left;
+	margin-left: 150px;
+	margin-top: 125px;
+}
+
+div.ourServices{
+	background: #e4fdf9;
+	min-height: 1410px;
+	text-align: center;
+}
+.ourServices .description{
+padding-top: 170px;
+}
+.ourServices .description p{
+	margin-top: 10px;
+}
+.cards div{
+	display: inline-block;
+	width: 230px;
+	height: 330px;
+	margin-top: 100px;
+	margin-right: 30px;
+    padding:50px 60px 0 50px;
+    background: white;
+}
+.cards div:hover{
+	background: #00897b;
+	color:white;
+
+}
+.cards h3{
+	margin-top: 30px;
+}
+.cards p{
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+.cards a{
+
+	border: 1px black solid;
+	padding: 10px 5px;
+}
+.cards div a:hover{
+
+	background: #00897b;
+	color:white;
+	border: 1px white solid;
+}
+.latesWorks{
+	max-height: 1620px;
+	max-width: 100%;
+}
+.latesWorks p{
+	margin-bottom: 120px;
+}
+.latesWorks a{
+	color: black;
+	border: #00897b 2px solid;
+	padding: 15px 25px;
+	margin: 0 -370px 0 390px;
+
+}
+.latesWorks a:hover{
+ background: #00897b;
+ color:white;
+}
+.card div{
+	display: inline-block;
+	margin: 20px 5px -50px 20px;
+}
+
+.card div:nth-child(1),
+.card div:nth-child(4){
+	margin-left: 120px;
+}
+.card div:nth-of-type(1){
+	margin-top: 120px;
+}
+.card{
+	position: relative;
+}
+.card h2{
+	color: white;
+	position: absolute;
+	left: 18%;
+    top:28%;
+
+}
+.card p{
+	font-size: 125%;
+	color: white;
+	position: absolute;
+	left: 19%;
+    top:31%;
+
+}
+.btn{
+    margin-top: 70px;
+    margin-bottom: 70px;
+	position: relative;
+    padding: 5% 10%;
+	width: 70%;
+	left: 7%;
+}
+.btn a{
+	padding: 2% 6%;
+	    background: #00897b;
+	    color: white;
+}
+.pricingPlan{
+	background: #EDEFEE;
+	height: 1150px;
+}
+.pricingPlan .description{
+	padding-top: 130px;
+}
+.pricingPlan .description p{
+	margin-bottom: 140px;
+}
+.planCards{
+	display: inline-block;
+
+}
+.planCards p{
+margin: 20px 0 5px 0;
+}
+.planCards div{
+	float: left;
+	width: 375px;
+	text-align: center;
+	margin-left: 105px;
+	margin-right: -85px;
+
+}
+.planCards h2,
+.planCards span{
+ color: white;
+}
+hr{
+	margin: 0 0 0 100px;
+	width: 180px;
+border:0.5px #bfbfbf solid;
+}
+
+.planCards a{
+		border: 2px black solid;
+	padding: 15px 40px;
+
+}
+.planCards a:hover{
+	background: #00897b;
+	border:none;
+	color: white;
+}
+.planCards img{
+	position: relative;
+}
+.heaad1{
+	position: absolute;
+	left: 0%;
+    top: 760%;
+}
+.heaad2{
+	position: absolute;
+	left: 29%;
+    top: 760%;
+}
+.heaad3{
+	position: absolute;
+	left: 59%;
+    top: 760%;
+}
+.size{
+	font-size: 50px;
+}
+.shadow a{
+position: absolute;
+margin: 30px 30px 0 -85px;
+}
+span{
+	font-size: 25px;
+}
+sup{ 
+	position: absolute;
+	top:60%;
+	left: 29%;
+}
+.shadow{
+	background: white;
+	min-height: 550px;
+
+}
+.shadow:hover{
+	box-shadow: 0 0 100px 5px black;
+}
+.ourTeamMemper{
+	min-height:900px;
+}
+.photos{
+	margin-top: 135px;
+	display: inline-block;
+}
+.photos div{
+	float: left;
+	padding-left:30px;
+
+}
+.join{
+	margin: 0 0 0 85px;
+}
+.photos h2,
+.photos p{
+	text-align: center;
+}
+.social{
+	text-align: center;
+}
+.social img{
+    background: #f0f1f1;
+	border: 1px #f0f1f1 solid;
+	border-radius: 10px;
+	padding:10px 10px 10px 10px;
+	margin-left: 25px;
+}
+.blog{
+	min-height: 1930px;
+	background: #e4fdf9;
+}
+.blog .description{
+	padding-top: 120px;
+}
+.tale{
+	width: 100%;
+	margin-top: 130px;
+	display: inline-block;
+}
+.seo{
+	height: 400px;
+}
+.seo img{
+    margin: 1px 35px 0 120px;
+	float: left;
+}
+.seo h2{
+padding-top: 60px;
+}
+.seo span{
+	font-size: 20px;
+	padding-left: 60px;
+}
+.desc{
+	max-width: 27.5%;
+    position: absolute;
+    left: 54.5%;
+}
+.date{
+padding-left: 5px;
+}
+.quis{
+	height: 400px;
+}
+.quis img{
+
+    margin: 1px 35px 0 120px;
+	float: right;
+}
+.quis h2{
+	min-width: 100%;
+padding-top: 69px;
+padding-left: 55%;
+}
+.quis span{
+	position: absolute;
+    left: 20%;
+	font-size: 20px;
+}
+.text{
+	float: left;
+}
+.date1{
+	padding-left: 55%;
+}
+.desc2{
+	max-width: 27.5%;
+    position: absolute;
+    left: 10%;
+}
+.blog a{
+	color: white;
+	position: absolute;
+	top: 1315%;
+	left: 43.5%;
+	border: 2px #00897b solid;
+	padding: 15px 40px;
+	background: #00897b;
+}
+.contactUs{
+    min-width: 100%;
+	min-height: 1250px;
+	background: #212121 url("assets/rawpixel-com-252127.png") no-repeat;
+}
+.contactUs .description{
+	position: absolute;
+	top: 1335%;
+	color:white;
+}
+.contact{
+	display: inline-block;
+	position: absolute;
+	top: 1390%;
+	left: 20%
+}
+.contact div{
+	width: 200px;
+	text-align: center;
+	float: left;
+	padding:0 25px 0 50px;
+}
+.contact img{
+    background: #3949ab;
+	width: 50px;
+	height: 50px;
+	border: 1px black solid;
+	padding: 20px;
+	border-radius: 100%;
+}
+.contact p{
+	margin: 30px 0 0 0;
+	font-size: 20px;
+	color: white;
+}
+form{
+	position: absolute;
+	top: 1430%;
+	left: 15%;
+}
+input[type="text"]{
+	width: 100%;
+	min-height: 84px;
+	vertical-align: middle;
+	font-size: 20px;
+	border-radius:20px; 
+}
+input[type="email"]{
+	position: absolute;
+	top: 0%;
+	left: 107%;
+    width: 78%;
+    min-height: 84px;
+    vertical-align: middle;
+	font-size: 20px;
+	border-radius:20px; 
+}
+input[type="submit"]{
+position: absolute;
+top: 110%;
+left: 155%;
+padding: 20px 60px;
+border-radius: 10px;
+}
+textarea{
+	padding: 15px;
+	margin: 40px 0 0 0;
+	width:180%;
+    min-height: 250px; 
+    border-radius: 10px;
+    font-size: 20px;
+ }
+ .end{
+ 	text-align: center;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ }
